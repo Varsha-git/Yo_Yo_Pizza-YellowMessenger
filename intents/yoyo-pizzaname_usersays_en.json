@@ -1,0 +1,77 @@
+[
+  {
+    "id": "74cf5ccc-ce75-4e81-9fc6-b31eb64e8ac8",
+    "data": [
+      {
+        "text": "classic corn",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "0084eb9e-6546-458f-9efe-762252ce7021",
+    "data": [
+      {
+        "text": "veggie feast",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "d8dc19ec-519f-4d3d-b7fa-971cbd4f33e5",
+    "data": [
+      {
+        "text": "country feast",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "ee7b87dc-dc34-4c1d-81d2-be9606d1e737",
+    "data": [
+      {
+        "text": "paneer soya supreme",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "c94b5c6c-a65d-4e60-85fc-70cd66dfd343",
+    "data": [
+      {
+        "text": "spiced paneer",
+        "meta": "@yoyo-pizzaname",
+        "alias": "yoyo-pizzaname",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

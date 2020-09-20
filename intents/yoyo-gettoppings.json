@@ -1,0 +1,57 @@
+{
+  "id": "53efa9c3-161b-4e0e-9ac9-41d505859ab3",
+  "name": "yoyo-gettoppings",
+  "auto": true,
+  "contexts": [
+    "yoyo-getsize"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-gettoppings",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6e92d61c-b32e-411f-b292-8fa99c035c83",
+          "name": "pizzacrust",
+          "required": false,
+          "dataType": "@pizza-crust",
+          "value": "$pizzacrust",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "You have a good choice. Please type \"ok\" if you want to continue with the order."
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,57 @@
+{
+  "id": "7dc26be6-0a5d-45d3-98fc-4d71b2c2e5dd",
+  "name": "yoyo-pizzaname",
+  "auto": true,
+  "contexts": [
+    "pizzachoice"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-pizzaname",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "02baa928-7b72-4d93-bb77-9463682315a5",
+          "name": "yoyo-pizzaname",
+          "required": false,
+          "dataType": "@yoyo-pizzaname",
+          "value": "$yoyo-pizzaname",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Good Choice ! Please tell size of pizza. Small? Medium? Large?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

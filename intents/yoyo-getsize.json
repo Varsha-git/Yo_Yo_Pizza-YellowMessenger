@@ -1,0 +1,57 @@
+{
+  "id": "a0a48906-9b33-48b7-8996-83062287522b",
+  "name": "yoyo-getsize",
+  "auto": true,
+  "contexts": [
+    "yoyo-pizzaname"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [
+        {
+          "name": "yoyo-getsize",
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "a29ad695-a652-480a-83a1-4a0e2be3ec56",
+          "name": "pizzasize",
+          "required": false,
+          "dataType": "@pizza-size",
+          "value": "$pizzasize",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "speech": [
+            "Which topping you like on your pizza ? \"Onion\", \"Tomato\", \"Olives\", \"Babycorn\", \"Pineapple\", \"\""
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
